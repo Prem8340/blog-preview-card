@@ -91,48 +91,36 @@ span {
 
 
 @media (min-width: 1440px) {
-    .container {
-        height: 550px;
-        width: 50%;
-        margin: 20px; 
-    }
-    .learn{
-        width: 40%;
-    }
-    
-}
-@media (max-width :768px){
-    .container {
-        height: 550px;
-        width: 50%;
-        margin: 20px; 
-    }
-    .learn{
-        width: 30%;
-    }
+  .container {
+    margin: 20px;
+    height: 65%;
+    width: 30%;
+  }
+  
 }
 
-@media (max-width: 375px){
-    .container {
-        width: 90%;
-        height: auto;
-        /* margin: 20px; */
-    }
-    
-    .info {
-        padding-left: 20px;
-        line-height: 1.5rem;
-    }
-    
-    .learn {
-        width: 30%;
-    }
-    
-    .detail {
-        padding-right: 20px;
-    }
-    
-    .author img {
-        width: 20%;
-    }
+@media (max-width: 768px) {
+  .container {
+    height: 545px;
+    width: 50%;
+    margin: 20px;
+  }
+  .learn{
+    width: 50%;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 90%;
+    height: auto;
+  }
+
+  .learn{
+    width: 65%;
+  }
+  .info {
+    padding-left: 20px;
+    line-height: 1.5rem;
+  }
 }
